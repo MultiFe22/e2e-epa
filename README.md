@@ -22,8 +22,10 @@ npx cypress run
 ## Assumptions
 In the fixture folder you can find all data used, and in there lies all the assumptions for the tests. This data was obtained directly from the US government, to maintain the test as close as possible to reality. I've also inspected the JS of the client side and gathered almost all the scripts that calculate the results, I've applied those scripts to know what value expect on each result.
 
-## Cases
-A multi-test happy ending and validation of the first form.
+## Test Scenarios
+A multi-test happy ending, it can test all the possible zip codes on the US and it's outputs, covering all happy ending cases.
+
+A form validation at the start of the calculator. To ensure that know one will breack the calculator with invalid data.
 
 ## Bugs found
 - Zip code form doesn't filter characters (you can input whatever you like).
